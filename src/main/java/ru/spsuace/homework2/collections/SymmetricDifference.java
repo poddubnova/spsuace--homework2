@@ -12,7 +12,7 @@ import java.util.HashSet;
 public class SymmetricDifference {
 
     public static <T> Set<T> symmetricDifference(Set<? extends T> set1, Set<? extends T> set2) {
-        Set<T> symDif=new HashSet<T>(set1);
+        Set<T> symDif = new HashSet<T>(set1);
         symDif.addAll(set2);
         Set<T> temp = new HashSet<T>(set1);
         temp.retainAll(set2);

@@ -7,24 +7,11 @@ import java.util.Iterator;
  * Если не понятно, что должны возвращать методы, смотрите документацию интерфейсов List и Collection
  * Если в метод передается индекс, которого не существует (за исключением, add(size(), obj)), то надо бросить ошибку:
  * throw new IndexOutOfBoundsException()
- */
-public class DoubleLinkedList<T> implements Iterable<T> {
+ */public class Node{
 
-    public int size() {
-        return 0;
-    }
 
-    public boolean contains(Object o) {
-        return false;
-    }
 
-    public void clear() {
 
-    }
-
-    public void add(int index, T element) {
-
-    }
 
     public void addLast(T element) {
 
